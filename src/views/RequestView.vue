@@ -1,8 +1,5 @@
-// TODO: // - add warning that requests cannot be deleted // - add request upload form which
-redirects to home after success
-
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed } from 'vue'
 import { auth } from '@/js/firebase'
 import { collection, addDoc } from 'firebase/firestore'
 import { db } from '@/js/firebase.js'

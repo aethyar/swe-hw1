@@ -1,5 +1,3 @@
-// TODO: // show Home, Login, Register, Request Leave // hide Login / Register depending on state
-
 <script setup>
 import { RouterLink } from 'vue-router'
 import { ref, onMounted } from 'vue'

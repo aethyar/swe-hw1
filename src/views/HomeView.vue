@@ -1,6 +1,3 @@
-
-
-
 <script setup>
 import { ref, onMounted } from 'vue'
 import LeaveRequestsDisplay from '@/components/LeaveRequestsDisplay.vue'
@@ -15,11 +12,11 @@ async function getLeaveRequests() {
       querySnapshot.forEach((doc) => {
         console.log(doc.id, ' => ', doc.data())
         let leaveRequest = {
-            id: doc.id,
-            duration: doc.data().duration,
-            leave_date: doc.data().leave_date,
-            reason: doc.data().reason,
-            owner: doc.data().owner,
+          id: doc.id,
+          duration: doc.data().duration,
+          leave_date: doc.data().leave_date,
+          reason: doc.data().reason,
+          owner: doc.data().owner
         }
         leaveRequestsSnapshot.push(leaveRequest)
       })

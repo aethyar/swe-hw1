@@ -46,7 +46,7 @@ export default {
   justify-content: flex-start;
   gap: 1rem;
   width: 100%;
-  max-width: 350px;
+  max-width: 500px;
   color: #94a5bc;
   background-color: #0d2037;
   border-radius: 1rem;
@@ -71,6 +71,7 @@ export default {
     gap: 0.5rem;
     color: #8bacd9;
     font-weight: 100;
+    font-size: 30px;
   }
 }
 .request__owner {
@@ -78,6 +79,7 @@ export default {
   justify-content: start;
   align-items: center;
   gap: 1rem;
+  font-size: 20px;
 
   span {
     font-weight: 300;
